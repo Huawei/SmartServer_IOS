@@ -1,0 +1,596 @@
+/* 
+  Localizable.strings
+  HWServerManagProject
+
+  Created by chenzx on 2018/4/18.
+  Copyright © 2018年 陈主祥. All rights reserved.
+*/
+
+"laujudge"                        = "en";
+
+
+"zoneHW"                        = "zoneEn";
+"timezoneHW"                    = "timezoneEn";
+
+"renzhengshibai"                = "Authentication failed";
+"requesttimeout"                = "Request Timeout";
+"loginError"                    = "Please check your user name password is correct or account status";
+"SessionLimitExceededError"                    = "The current logged in user is overmuch, please try later";
+"netnoalert"                   = "Not to network, please try again later";
+
+"loading"                    = "Loading...";
+
+
+// 首页
+
+"nosearchhisotry"              = "No historical records available";
+"operationsuccess"              = "Successful";
+"operationfail"                 = "Operation failed";
+"operationfailalert501str"                 = "This feature is not supported on current device";
+"memoryviewneedupgrade"                 = "This device does not support generate memory report, please upgrade BMC version";
+
+"listnorecord"                  = "No record available";
+"back"                          = " Back";
+"devicemanagement"              = "Devices";
+"search"                        = "Search";
+"delete"                        = "Delete";
+"edit"                          = "Edit";
+"validation"                    = "Validation";
+"Pleaseenterpassword"           = "Please enter password";
+"cancel"                        = "Cancel";
+"sure"                          = "Sure";
+"pwdmistake"                    = "Password mistake";
+"pleaseinputdpwd"                    = "Please enter password";
+
+"nodeviceaddalert"              = "No data available";
+"nodfoundlocaldevice"           = "No local device was found";
+"device"                        = "Device";
+"found"                         = "Discover";
+"mine"                          = "Me";
+"adddevice"                     = "Add Device";
+"editdevice"                     = "Edit Device";
+"scandevice"                    = "Scan Device";
+"scan"                          = "Scan";
+"eventpush"                     = "Notifications";
+"securitysettings"              = "Security Settings";
+"securitysettings2"              = "Security";
+"PasswordProtection"              = "Password Protection";
+"helpfeedback"                  = "Help and feedback";
+"about"                         = "About";
+
+//添加设备
+
+"accessmode"                    = "Access Mode";
+"network"                       = "Network";
+"host"                          = "Host";
+"hostplaceholder"               = "Enter the domain name or IP address";
+"port"                          = "Port";
+"port1"                          = "Port";
+"deviceinfo"                    = "Device Info";
+"authenticationinfo"            = "Authentication Info";
+"user"                          = "User";
+"userplaceholder"               = "Enter the user name";
+"pwd"                           = "Password";
+"pwdplaceholder"                = "Enter the password";
+"rememberpwd"                   = "Remember Password";
+"addsubmit"                     = "OK";
+"addsubmit2"                     = "OK";
+"scan_device_is_not_available"                     = "The device has not been added";
+"scan_device_Setting"                     = "Setting";
+"scan_device_access"                     = "Please on the iPhone \"privacy Settings - - camera\" option is set in the access";
+"ad_hostname_is_empty"                     = "The IP address/host name cannot be empty";
+"ad_hostname_is_illegal"                     = "Incorrect IP address/host name format";
+"ad_port_is_empty"                     = "The port cannot be empty";
+"ad_port_is_illegal"                     = "Port must be a number from 0 to 65535";
+"ad_username_is_empty"                     = "The user name cannot be empty";
+"ad_password_is_empty"                     = "The password cannot be empty";
+
+"localdevicehave"                     = "A device that has the same IP address or host name already exists";
+
+
+//设备详情
+"productmodel"                  = "Product Model";
+"ipv4address"                   = "IPv4 Address";
+"ipv6address"                   = "IPv6 Address";
+"deviceaddress"                 = "Device Location";
+"healthstatus"                  = "Health Status";
+"powerstatus"                   = "Power Status";
+"productsn"                     = "Product SN";
+"assettag"                      = "Asset Tag";
+"bmcversion"                    = "BMC Version";
+"biosversion"                   = "BIOS Version";
+"cpuinfo"                       = "CPU Info";
+"memoryinfo"                    = "Memory Info";
+"basicinfo"                     = "Basic Info";
+"devicedetailhealth"            = "Health";
+"devicedetaillog"               = "System Events";
+"devicedetailhardware"          = "Hardware";
+"devicedetaildashboar"          = "Dashboard";
+"devicedetaillocation"          = "Location";
+"devicedetailmeter"             = "Power Meter";
+"devicedetailmore"              = "More";
+"devicedetailbootset"           = "Boot Settings";
+"devicedetailcontrol"           = "Power Buttons";
+"devicedetailuid"               = "UID";
+"devicedetailfirmware"          = "Firmware";
+"devicedetailreport"            = "Report";
+"devicedetailcollection"        = "Collection";
+"devicedetailcollapse"          = "Collapse";
+"devicedetailswitchdev"         = "Switch Device";
+"devicedetailnoswitdev"         = "No device available";
+"ok"                            = "Normal";
+"warning"                       = "Warning";
+"critical"                      = "Critical";
+"powerstateon"                  = "Powered on";
+"powerstateoff"                 = "Powered off";
+"complete"                      = "OK";
+"devicelocation"                = "Device Location";
+"devicelocationpla"             = "Enter the location of the device for device locating";
+
+"devicelocationdes"             = "Enter a string of 0 to 64 characters, allowing letters, digits, and `~!@#$%^&*()-_=+\|[{}];:'\",<.>/?";
+
+//健康事件界面
+
+"healthevent"                   = "Health";
+"eventcode"                     = "Event Code";
+"eventdescription"              = "Description";
+"eventhandtime"                 = "产生时间";
+"eventhandsug"                  = "Handling Suggestion";
+"all"                           = "All";
+"critical"                      = "Critical";
+"major"                         = "Major";
+
+
+//系统日志
+
+"system_log_level"                        = "Log Level";
+"system_log_subject"                        = "Subject";
+"system_log_create_date"                        = "Generation Time";
+"system_log_select_level_title"                        = "Select Log Level";
+"system_log_select_level_critical"                        = "Critical";
+"system_log_select_level_warning"                        = "Warning";
+"system_log_select_level_ok"                        = "OK";
+"system_log_select_type_title"                        = "Select Subject";
+"system_log_select_type_base"                        = "Base Plane";
+"system_log_select_type_bmc"                        = "BMC";
+"system_log_select_type_button"                        = "Button";
+"system_log_select_create_date_title"                        = "Select Generation Time";
+"system_log_select_create_date_today"                        = "Today";
+"system_log_select_create_date_seven_days"                        = "Last 7 days";
+"system_log_select_create_date_one_month"                        = "Last 30 days";
+"system_log_select_create_date_range"                        = "Special Date Range";
+"system_log_date_range_from"                        = "Start Date";
+"system_log_date_range_to"                        = "End Date";
+"system_log_select_all"                        = "All";
+"system_log_prompt_clear"                        = "Are you sure you want to clear system log?";
+
+
+//网络设置界面
+
+"netset"                        = "Network Settings";
+"devicedetailnetset"                        = "Network";
+"hostname"                      = "Host Name";
+"vlan"                          = "VLAN";
+"timezone"                      = "Time Zone";
+
+"ns_hostname_section_name"                      = "Set iBMC Host Name";
+"ns_hostname_label_hostname"                      = "Host Name";
+"ns_network_msg_illegal_hostname"                      = "Incorrect host name";
+"ns_network_hint_hostname"                      = "Enter a string of 1 to 64 characters, allowing letters, digits, and \'-\'. The host name cannot start with \'-\'";
+
+"ns_port_port_mode_fixed"                      = "Fixed";
+"ns_port_port_mode_automatic"                      = "Auto";
+"ns_port_title_port_mode_selection"                      = "Select Network Port Mode";
+"ns_port_prompt_update_port"                      = "Modifying network port may cause link disconnection. Are you sure you want to save the settings?";
+"ns_port_label_port_type"                      = "Network Port Mode";
+"ns_port_section_port_selection"                      = "Select Port";
+"ns_port_port_type_dedicated"                      = "Dedicated port";
+"ns_port_port_type_aggregation"                      = "Aggregated port";
+"ns_port_port_type_LOM"                      = "LOM port";
+"ns_port_port_type_LOM2"                      = "LOM port 2";
+"ns_port_port_type_External_PCIe"                      = "PCIe expansion port";
+
+"alerttitle"                      = "Remind";
+
+
+"ns_network_prompt_update_ip_version"           = "Modifying IP version settings may cause link disconnection. Are you sure you want to save the settings?";
+"ns_network_prompt_update_ipv4_setting"           = "AModifying IPv4 settings may cause link disconnection. Are you sure you want to save the settings?";
+"ns_network_prompt_update_ipv6_setting"           = "Modifying IPv6 settings may cause link disconnection. Are you sure you want to save the settings?";
+"ns_network_prompt_update_dns_setting"           = "Modifying DNS settings may cause link disconnection. Are you sure you want to save the settings? ";
+"ns_network_ip_version"                      = "IP Version";
+"ns_network_ip_version_setting"                      = "IP Version Settings";
+"ns_network_ip_version_selection_title"                      = "Select IP Version";
+"ns_network_ip_version_ipv4"                      = "IPv4";
+"ns_network_ip_version_ipv6"                      = "IPv6";
+"ns_network_ip_version_ipv4_and_ipv6"                      = "IPv4+IPv6";
+"ns_network_dns_addr_origin_selection_title"                      = "Select DNS Mode";
+"ns_network_dns_addr_origin_static"                      = "Manually set DNS";
+"ns_network_dns_addr_origin_ipv4"                      = "Use IPv4 DNS";
+"ns_network_dns_addr_origin_ipv6"                      = "Use IPv6 DNS";
+"ns_network_label_ipv4"                      = "IPv4 Settings";
+"ns_network_label_ipv6"                      = "IPv6 Settings";
+"ns_network_label_dhcp"                      = "Auto";
+"ns_network_label_ip_address"                      = "IP Address";
+"ns_network_label_gateway"                      = "Default Gateway";
+"ns_network_label_subnet_mask"                      = "Subnet Mask";
+"ns_network_label_prefix_len"                      = "Prefix Length";
+"ns_network_label_link_local_address"                      = "Link Local Address";
+"ns_network_label_mac"                      = "MAC Address";
+"ns_network_label_DNS"                      = "DNS";
+"ns_network_label_dns_setup_method"                      = "DNS Mode";
+"ns_network_label_domain"                      = "Domain Name";
+"ns_network_label_primary_DNS"                      = "Preferred DNS";
+"ns_network_label_alternative_DNS"                      = "Alternate DNS";
+
+"ns_network_error_ip_version_required"                      = "Select the IP version";
+"ns_network_error_ipv4_addr_required"                      = "Enter an IPv4 address";
+"ns_network_error_ipv4_addr_illegal"                      = "Incorrect format of the IPv4 address";
+"ns_network_error_ipv4_mask_required"                      = "Enter an IPv4 subnet mask";
+"ns_network_error_ipv4_mask_illegal"                      = "Incorrect format of the IPv4 subnet mask";
+"ns_network_error_ipv4_gateway_required"                      = "Enter an IPv4 gateway address";
+"ns_network_error_ipv4_gateway_illegal"                      = "Incorrect format of the IPv4 gateway address";
+
+"ns_network_error_ipv6_addr_required"                      = "Enter an IPv6 address";
+"ns_network_error_ipv6_addr_illegal"                      = "Incorrect format of the IPv6 address";
+"ns_network_error_ipv6_prefix_required"                      = "Enter the IPv6 prefix length";
+"ns_network_error_ipv6_prefix_illegal"                      = "The IPv6 prefix length must be an integer from 0 to 128";
+"ns_network_error_ipv6_gateway_required"                      = "Enter an IPv6 gateway address";
+"ns_network_error_ipv6_gateway_illegal"                      = "Incorrect format of the IPv6 gateway address";
+
+"ns_network_error_primary_dns_required"                      = "Enter an address for the preferred DNS";
+"ns_network_error_primary_dns_illegal"                      = "Incorrect format of the preferred DNS address";
+"ns_network_error_alternative_dns_required"                      = "Enter an address for the alternate DNS";
+"ns_network_error_alternative_dns_illegal"                      = "Incorrect format of the alternate DNS address";
+
+"ns_network_prompt_update_ip_setting"                      = "Are you sure you want to modify the network settings?";
+
+"ns_vlan_label_setting"                      = "VLAN Settings";
+"ns_vlan_label_vlan"                      = "VLAN";
+"ns_vlan_label_vlan_id"                      = "VLAN ID";
+"ns_vlan_hint_vlan_id"                      = "Enter an integer ranging from 1 to 4094";
+"ns_vlan_illegal_vlan_id"                      = "The VLAN ID must be an integer ranging from 1 to 4094";
+
+"ns_time_zone_label_select_zone"                      = "Select Area";
+"ns_time_zone_label_zone"                      = "Area";
+"ns_time_zone_label_select_timezone"                      = "Select Time Zone";
+"ns_time_zone_label_timezone"                      = "Time Zone";
+"ns_time_zone_msg_timezone_illegal"                      = "Please select the time zone";
+"ns_time_zone_msg_zone_illegal"                      = "Please select the zone";
+
+
+//硬件信息
+
+"hardwarenic"                   = "NIC";
+"resource_state_enabled"                   = "Enable";
+"resource_state_disabled"                   = "Disable";
+"resource_state_absent"                   = "Absent";
+"hardware_memo_label_type"                   = "Type";
+"hardware_memo_label_capacity"                   = "Capacity";
+"hardware_memo_label_speed"                   = "Frequency";
+"hardware_memo_label_width_bit"                   = "Bit Width";
+"hardware_memo_label_rank_count"                   = "Ran";
+"hardware_memo_label_min_voltage"                   = "Min Voltage";
+"hardware_memo_label_manufacturer"                   = "Manufacturer";
+"hardware_memo_label_serial_no"                   = "SN";
+"hardware_memo_label_part_no"                   = "BOM Code";
+"hardware_memo_label_technology"                   = "Technology";
+"hardware_cpu_label_manufacturer"                   = "Manufacturer";
+"hardware_cpu_label_model"                   = "Model";
+"hardware_cpu_label_processor_id"                   = "Processor ID";
+"hardware_cpu_label_speed_MHZ"                   = "Frequency";
+"hardware_cpu_label_processor"                   = "Processor";
+"hardware_cpu_label_cores_and_threads"                   = "Cores/Threads";
+"hardware_cpu_label_L123_cache"                   = "L1/L2/L3 Cache";
+"hardware_cpu_label_part_no"                   = "BOM Code";
+"hardware_cpu_label_position"                   = "Location";
+
+"hardware_power_label_manufacturer"                   = "Manufacturer";
+"hardware_power_label_model"                   = "Type";
+"hardware_power_label_serial_no"                   = "SN";
+"hardware_power_label_firmware_version"                   = "Firmware Version";
+"hardware_power_label_capacity_watts"                   = "Rated Power";
+"hardware_power_label_supply_type"                   = "Input mode";
+"hardware_power_label_part_no"                   = "BOM Code";
+
+"hardware_network_adapter_label_manufacturer"                   = "Manufacturer";
+"hardware_network_adapter_label_model"                   = "Model";
+"hardware_network_adapter_label_chip_manufacturer"                   = "Chip Manufacturer";
+"hardware_network_adapter_label_chip_model"                   = "Chip Model";
+"hardware_network_adapter_label_position"                   = "Connected To";
+"hardware_network_adapter_label_ports"                   = "Network Port List";
+
+"hardware_storage_label_model"                   = "Type";
+"hardware_storage_label_name"                   = "Name";
+"hardware_storage_label_firmware_version"                   = "Firmware Version";
+"hardware_storage_label_support_ext_device"                   = "Support Out-of-Band Mgmt";
+"hardware_storage_label_support_raid_level"                   = "RAID Level";
+"hardware_storage_label_mode"                   = "Mode";
+"hardware_storage_label_configure_version"                   = "Version";
+"hardware_storage_label_memory_size_MB"                   = "Memory Size";
+"hardware_storage_label_speed"                   = "Port Speed";
+"hardware_storage_label_sas_addr"                   = "SAS Address";
+"hardware_storage_label_stripe_range"                   = "Supported Stripe Range";
+"hardware_storage_label_cache_pinned"                   = "Cache Pinned Status";
+"hardware_storage_label_maintain_pd_fail_history"                   = "Maintain PD Fail History";
+"hardware_storage_label_copy_back_state"                   = "Copyback";
+"hardware_storage_label_smart_copy_back_state"                   = "Copyback on SMART Error";
+"hardware_storage_label_JOBD_state"                   = "JBOD";
+"hardware_storage_label_bbu"                   = "BBU";
+"hardware_storage_label_bbu_name"                   = "BBU Name";
+"hardware_storage_label_bbu_state"                   = "BBU Status";
+
+"netportlisttitle"             = "Network Port List";
+"hardware_network_port_label_port_type"             = "Medium Type";
+"hardware_network_port_label_mac_addr"             = "MAC Address";
+"hardware_network_port_port_type_optical"             = "Optical Port";
+"hardware_network_port_port_type_electrical"             = "Electrical Port";
+"hardware_network_port_link_status_down"             = "Down";
+"hardware_network_port_link_status_up"             = "Up";
+
+"hardware_storage_label_volumes"                = "Logical Drive List";
+"hardware_storage_label_disk"                = "Drive List";
+"storage_only_support_raid"                = "Notice: only supports RAID card storage";
+"drive_label_protocol"                = "Interface Type";
+"drive_label_manufacturer"                = "Manufacturer";
+"drive_label_model"                = "Model";
+"drive_label_sn"                = "Serial Number";
+"drive_label_revision"                = "Firmware Version";
+"drive_label_media"                = "Media Type";
+"drive_label_temperature"                = "Temperature";
+"drive_label_fw_status"                = "Firmware State";
+"drive_label_sas0"                = "SAS Address(0)";
+"drive_label_sas1"                = "SAS Address(1)";
+"drive_label_capacity"                = "Capacity";
+"drive_label_capable_speed_gbs"                = "Capable Speed";
+"drive_label_negotiated_speed_gbs"                = "Negotiated Speed";
+"drive_label_power_state"                = "Power State";
+"drive_label_hotspare_type"                = "Hot Spare State";
+"drive_label_rebuild_state"                = "Rebuild Status";
+"drive_label_patrol_state"                = "Patrol Status";
+"drive_label_indicator_led"                = "Location State";
+"drive_label_power_on_hours"                = "Power-On Hours";
+
+//<!-- 重构状态 -->
+"drive_rebuild_state_done_or_not_rebuilt"                = "Stopped";
+"drive_rebuild_state_building"                = "Building";
+
+"drive_patroll_state_done_or_not_patrolled"                = "Stopped";
+"drive_patroll_state_patrolling"                = "Patrolling";
+
+//<!-- 热备状态 -->
+"drive_hotspare_none"                = "None";
+"drive_hotspare_global"                = "Global";
+"drive_hotspare_dedicated"                = "Dedicated";
+
+//<!-- 定位状态 -->
+"drive_indicator_led_off"                = "Off";
+"drive_indicator_led_blinking"                = "Blinking";
+
+"logical_label_volume_name"                = "Name";
+"logical_label_state"                = "State";
+"logical_label_raid_level"                = "RAID Level";
+"logical_label_capacity"                = "Capacity";
+"logical_label_strip_size"                = "Strip Size";
+"logical_label_sscd_caching"                = "SSCD Caching";
+"logical_label_default_read_policy"                = "Default Read Policy";
+"logical_label_current_read_policy"                = "Current Read Policy";
+"logical_label_default_write_policy"                = "Default Write Policy";
+"logical_label_current_write_policy"                = "Current Write Policy";
+"logical_label_default_io_policy"                = "Default IO Policy";
+"logical_label_current_io_policy"                = "Current IO Policy";
+"logical_label_disk_cache_policy"                = "Disk Cache Policy";
+"logical_label_access_policy"                = "Access Policy";
+"logical_label_init_state"                = "Initialization State";
+"logical_label_bgi_enabled"                = "BGI Enabled";
+"logical_label_l2_cache"                = "Used for L2 Cache";
+"logical_label_consistency_check"                = "Consistency Check";
+"logical_label_boot_disk"                = "Boot Disk";
+
+"yes"                = "YES";
+"no"                = "NO";
+"Enable"                = "Enable";
+"Disable"                = "Disable";
+"Stopped"                = "Stopped";
+
+//<!--  InitializationMode  -->
+"logical_drive_im_UnInit"                = "No Init";
+"logical_drive_im_QuickInit"                = "Quick Init";
+"logical_drive_im_FullInit"                = "Full Init";
+
+//<!-- logic drive state -->
+"logical_drive_state_enabled"                = "Optimal";
+"logical_drive_state_offline"                = "Offline";
+"logical_drive_state_degraded"                = "Degraded";
+
+//实时状态
+
+"realtimetemp"                  = "Real-Time Temperature";
+"healthstatus"                  = "Health Status";
+"healthfan"                     = "Fan";
+"healthsupply"                  = "Power Supply";
+"healthhard"                    = "Hard Drive";
+"healthcpu"                     = "CPU";
+"healthmemory"                  = "Memory";
+"healthtemp"                    = "Temperature";
+
+
+//功耗信息
+
+"powerinfo"                     = "Power Consumption Info";
+"statisticscollected"           = "Statistics Collected";
+"cureentpower"                  = "Current Power";
+"sysaveragepower"               = "System Average Power";
+"totalconsumedpower"            = "Total Consumed Power";
+"peakpower"                     = "Peak Power";
+"peakoccurred"                  = "Peak Occurred";
+"curcpupower"                   = "Current CPU Power";
+"curmemorypower"                = "Current Memory Power";
+"notsupported"                  = "Not Supported";
+
+
+
+//启动设置
+
+"bootmediium"                   = "Boot Medium";
+"bootmode"                      = "Boot Mode";
+"bootnooverride"                = "No Override";
+"bootpex"                       = "PXE";
+"bootfddredevice"               = "PDD/Removable Device";
+"bootdvd"                       = "DVD Drive";
+"bootharddrive"                 = "Hard Drive";
+"bootnbioset"                   = "BIOS Setup";
+"bootneffper"                   = "Effective Permanently";
+
+
+//电源开关
+
+"powerofftimeout"               = "Power-Off Timeout";
+"submit"                        = "Submit";
+"poweron"                       = "Power";
+"gracefulpoweroff"              = "Graceful Power Off";
+"forcepoweroff"                 = "Forced Power Off";
+"forcedrestart"                 = "Forced Restart";
+"fircepowercycle"               = "Forced Power Cycle";
+"nmi"                           = "NMI";
+"setsafepowerofftimeout"        = "Set Safe Power Off Timeout";
+"powerofftimeoutdes"            = "available values:10 - 6000,default 600,unit second";
+"powerofftimeoutpla"            = "available values:10 - 6000";
+
+"timeout"                       = "Timeout";
+
+
+
+//定位灯
+
+"indicator_state_off"           = "Off";
+"indicator_state_lit"           = "On";
+"indicator_state_blinking"      = "Blinking";
+"indicator_state_unknown"       = "Unknown";
+
+//固件信息
+
+"ibmcswitchover"               = "Switch Over iBMC";
+"RESTARTIBMC"                  = "Restart iBMC";
+"firmware_prompt_reset"                   = "Are you sure you want to restart the iBMC?";
+"firmware_prompt_rollback"                   = "Are you sure you want to switch over the iBMC image?";
+
+
+
+//生成报告
+
+"Selectreportitem"              = "Select the report item";
+"toreport"                      = "Report";
+"report"                        = "Report";
+"reportsysinfo"                 = "System Info";
+"reportcpu"                     = "CPU";
+"reportmemory"                  = "Memory";
+"reportstorage"                 = "Storage";
+"reportfirmware"                = "Firmware";
+"reportnetwork"                 = "Network";
+"reporthealthsta"               = "Health Status";
+"reportbtn"                     = "GENERATE";
+"sharefiletype"                 = "Choose share file type";
+"sharetypeimage"                = "Figure";
+"share"                 = "Share";
+
+
+//一键收集
+
+"collectionkeybtn"              = "Collect";
+"Storagedirectory"              = "Storage Path";
+"path"                          = "Path";
+"sandbox"                       = "Sandbox";
+"sandboxfile"                   = "Sandbox File";
+"packaging"                     = "Packaging...";
+"downloading"                   = "Downloading...";
+"downloadcomplete"              = "Complete";
+
+
+
+
+//我的
+
+"passwordprotection"            = "Password protection";
+"fingerprintunlock"             = "Fingerprint";
+"pleasesetpwdlockfirst"         = "Please set the password lock first";
+"devicenosupportfingerprint"    = "Your device hardware does not support fingerprint identification for a while";
+"setapplock"                    = "Turn Password On";
+"createapplock"                 = "Enter your password";
+"combinationlock"               = "Combination lock";
+"modifypwdlock"                 = "Change Password";
+"pleaseenteroldpwd"             = "Please enter your old password";
+"pleaseenternewpwd"             = "Please enter your new password";
+"openapplock"                   = "Turn Password On";
+"closeapplock"                  = "Turn Password Off";
+"pleaseenterpwdagain"           = "Please enter your password again";
+"inputpwderrorreenter"          = " Input password error, please re-enter";
+"fingerprintnoset"          = "Equipment system is not set fingerprint password";
+"fingerprintinputpwd"          = "Enter the password";
+"fingerprintalert"          = "Please verify the existing fingerprint";
+"unlock_title"          = "Verify";
+
+
+//关于
+"funcoverview"                  = "Function Overview";
+"versionupdate"                 = "Version Update";
+"rate"                          = "Rate";
+"userprotocal"                  = "User Protocol";
+
+
+//多语言
+"duoyuyan"                      = "Languages";
+"ThemeSkin"                     = "Theme Skin";
+"selectlanguage"                = "Select the language";
+"selectcolor"                   = "Select the color";
+
+//帮助反馈
+"useappPasswordProtection"                      = "Use app Password Protection";
+"howtoadddevice"                                = "Add Device ";
+"Scan1DCode"                                    = "Scan 1D Code";
+"HowtoManageServers"                           = "How to Manage Servers ";
+"notesevent"                                    = "Notes";
+"helphow1"                      = "helphow11";
+"helphow2"                      = "helphow22";
+"helphow3"                      = "helphow33";
+"helphow4"                     = "http://support.huawei.com/enterprise/en/doc/EDOC1100022941";
+"helphow5"                      = "helphow55";
+"feedback"                      = "Feedback";
+"feedbackname"                      = "Your Name";
+"feedbackemail"                      = "Your Email";
+"UploadLog(Optional)"                      = "Upload Log (Optional)";
+"UploadLogdes"                      = "To better solve your problem, please send application logs to us.";
+"UploadPicture(Optional)"                      = "Upload Picture (Optional)";
+"feedback_hint_privacy"                      = "Privacy statements: 1. The personal email address you entered will not be used for any other purposes but for replying your feedback. 2. Application logs do not contain your private information.";
+
+"feedbackmark"                      = "Please describe your problem or suggestion so that we can offer better help. Thank you";
+"pleaseinputyourname"                      = "Please enter your name";
+"fbinputyournamelength"                      = "Name should not exceed 48 characters";
+"pleaseinputyouremail"                      = "Please enter your Email";
+"youremailerror"                      = "Email Error";
+"fbemaillength"                      = "Email should not exceed 48 characters";
+
+//用户协议
+"useragreement"                      = "policy11";
+"versiondes"                      = "app_version11";
+
+"pwdclear"                        = "Clear";
+"pwdremove"                        = "Delete";
+"localno"                         = "NO";
+"localyes"                         = "YES";
+
+"thisnosuportfunc"                         = "Device does not support this feature";
+
+"currentwarming"                         = "Active Alarms";
+
+
+"didongmoshialert1"                     = "V3 servers do not support this function. Ensure that the server is not a V3 server";
+"didongmoshialert2"                     = "Before user NMI, ensure that the OS has the NMI processing program.Otherwise, the OS may crash.";
+"didongmoshialert3"                     = "Before use NMI, ensure that the OS has the NMI processing program. Otherwise, the OS may crash.";
+"didongmoshialert4"                     = "Current device does not support update boot mode.";
+"akeycollectalert1"                     = "One-click collection requires several minutes. Please wait.";
+
+"scanqralert2"              = "Just put the one-dimensional code in the box";
+
+"emailsendsuccess"              = "Send Successful";
+"pwdhaveclose"                  = "Password closed";
+

@@ -1,0 +1,100 @@
+//
+//  PrefixHeader.pch
+//  WallPaperIPhone
+//
+//  Created by 陈主祥 on 2017/3/9.
+//  Copyright © 2017年 iOSgo. All rights reserved.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "UIView+ZXFrame.h"
+#import "ABNetWorking.h"
+#import "NSString+MD5.h"
+#import "NSDictionary+TransformUntils.h"
+#import "UIView+Toast.h"
+#import "UIColor+HexString.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+#import "Masonry.h"
+#import "HWGlobalData.h"
+#import "NSObject+CheckDataSure.h"
+#import "NoDeviceView.h"
+#import "NoDataView.h"
+#import "NSBundle+LanguageHW.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
+
+
+
+
+#define client_ID @"15"
+#define client_Key @"cc355c66aeb55fa2f340482d8fb7cdd8"
+#define ver_id @"1"
+
+
+//输入框限制
+#define LOGINNUM @"0123456789"
+#define LOGINALPHA @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+#define LOGINALPHANUM @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+#define LOGINALPHANUMCha @"ABCDEFabcdef0123456789:"
+#define LOGINALPHANUMHostname @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-"
+#define LOGINALPHANUMDeviceLocalStr @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`~!@#$%^&*()-_=+\\|[{}];:'\",<.>/?"
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define Is_Iphone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define Is_Iphone_X (Is_Iphone && ScreenHeight == 812.0)
+#define NavHeight (Is_Iphone_X ? 88 : 64)
+#define TabHeight (Is_Iphone_X ? 83 : 49)
+#define MasTopHeight Is_Iphone_X ? 20 : 0
+
+#define RGBCOLOR(r,g,b)     [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define HEXACOLOR(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+#define NormalApp_tabbar_Style_Color HEXCOLOR(0x666666)
+#define SelectApp_tabbar_Style_Color HEXCOLOR(0x25c4a4)
+#define NormalApp_TableView_Title_Style_Color HEXCOLOR(0x939d9b)
+#define NormalApp_nav_Style_Color HEXCOLOR(0x2F3C47)
+#define NormalApp_Line_Color HEXCOLOR(0xf1f1f1)
+#define NormalApp_BackgroundColor HEXCOLOR(0xF1F1F1)
+
+
+
+#ifdef DEBUG
+#   define BLLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define BLLog(...)
+#endif
+
+#define APP_NAV_COLOR_CHECK @"APP_NAV_COLOR_CHECK"
+
+//多语言 宏
+#define AppLanguage @"appLanguage"
+#define CustomLocalizedString(key, comment) \
+[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:(key) value:@"" table:nil]
+#define LocalString(key) CustomLocalizedString(key, nil)
+#define LocalizedString(key, comment) \
+[[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
+
+#define App_First_In @"App_First_In"
+#define PWD_LOCK_DATA @"PWD_LOCK_DATA"
+#define PWD_Touch_DATA @"PWD_Touch_DATA"
+
+
+
+
+
+
+
+
