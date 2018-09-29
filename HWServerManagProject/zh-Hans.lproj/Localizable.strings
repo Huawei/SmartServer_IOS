@@ -1,0 +1,595 @@
+/* 
+  Localizable.strings
+  HWServerManagProject
+
+  Created by chenzx on 2018/4/18.
+  Copyright © 2018年 陈主祥. All rights reserved.
+*/
+
+"laujudge"                        = "china";
+
+"zoneHW"                        = "zoneZh";
+"timezoneHW"                    = "timezoneZh";
+
+"renzhengshibai"                = "认证失败";
+"requesttimeout"                = "请求超时";
+"loginError"                    = "请检查你的用户名密码是否正确或者账号状态是否异常";
+"SessionLimitExceededError"                    = "当前登录用户过多，请稍后再进";
+"netnoalert"                   = "网络不给力，请稍后再试";
+
+"loading"                    = "加载中...";
+
+// 首页
+
+"nosearchhisotry"              = "暂无历史搜索记录";
+"operationsuccess"              = "操作成功";
+"operationfail"                 = "操作失败";
+"operationfailalert501str"                 = "当前设备不支持该功能";
+
+"memoryviewneedupgrade"                 = "当前设备不支持导出内存报告，请升级BMC版本";
+
+"listnorecord"                  = "暂无可显示记录";
+"back"                          = " 返回";
+"devicemanagement"              = "设备";
+"search"                        = "搜索";
+"delete"                        = "删除";
+"edit"                          = "编辑";
+"validation"                    = "验证";
+"Pleaseenterpassword"           = "请输入密码";
+"cancel"                        = "取消";
+"sure"                          = "确定";
+"pwdmistake"                    = "密码错误";
+"pleaseinputdpwd"                    = "请输入密码";
+"nodeviceaddalert"              = "无可显示记录";
+"nodfoundlocaldevice"           = "没有找到本地设备";
+"device"                        = "设备";
+"found"                         = "发现";
+"mine"                          = "我的";
+"adddevice"                     = "添加设备";
+"editdevice"                     = "编辑设备";
+"scandevice"                    = "扫描设备";
+"scan"                          = "扫描";
+"eventpush"                     = "事件推送";
+"securitysettings"              = "安全设置";
+"securitysettings2"              = "安全设置";
+"PasswordProtection"              = "更改密码";
+"helpfeedback"                  = "帮助与反馈";
+"about"                         = "关于我们";
+
+//添加设备
+
+"accessmode"                    = "接入方式";
+"network"                       = "网络";
+"host"                          = "主机";
+"hostplaceholder"               = "请输入设备访问域名或IP";
+"port"                          = "网口";
+"port1"                          = "端口";
+"deviceinfo"                    = "设备信息";
+"authenticationinfo"            = "认证信息";
+"user"                          = "用户";
+"userplaceholder"               = "请输入设备访问用户名";
+"pwd"                           = "密码";
+"pwdplaceholder"                = "请输入设备访问密码";
+"rememberpwd"                   = "记住密码";
+"addsubmit"                     = "添加";
+"addsubmit2"                     = "保存";
+
+"scan_device_is_not_available"                     = "该设备还未添加";
+"scan_device_Setting"                     = "设置";
+"scan_device_access"                     = "请在iPhone的“设置-隐私-相机”选项中设置访问权限";
+"ad_hostname_is_empty"                     = "IP/主机名不能为空";
+"ad_hostname_is_illegal"                     = "IP/主机名格式有误";
+"ad_port_is_empty"                     = "端口不能为空";
+"ad_port_is_illegal"                     = "端口需为0-65535的数字";
+"ad_username_is_empty"                     = "用户不能为空";
+"ad_password_is_empty"                     = "用户不能密码不能为空";
+
+"localdevicehave"                     = "同一IP/主机名的设备已存在";
+
+
+
+
+//设备详情
+"productmodel"                  = "产品型号";
+"ipv4address"                   = "IPv4地址";
+"ipv6address"                   = "IPv6地址";
+"deviceaddress"                 = "设备位置";
+"healthstatus"                  = "健康状态";
+"powerstatus"                   = "上电状态";
+"productsn"                     = "产品序列号";
+"assettag"                      = "资产标签";
+"bmcversion"                    = "BMC版本";
+"biosversion"                   = "BIOS版本";
+"cpuinfo"                       = "CPU信息";
+"memoryinfo"                    = "内存信息";
+"basicinfo"                     = "基本信息";
+"devicedetailhealth"            = "健康事件";
+"devicedetaillog"               = "系统事件";
+"devicedetailhardware"          = "硬件信息";
+"devicedetaildashboar"          = "实时状态";
+"devicedetaillocation"          = "设备位置";
+"devicedetailmeter"             = "功耗信息";
+"devicedetailmore"              = "更多功能";
+"devicedetailbootset"           = "启动设置";
+"devicedetailcontrol"           = "电源开关";
+"devicedetailuid"               = "定位灯";
+"devicedetailfirmware"          = "固件信息";
+"devicedetailreport"            = "生成报告";
+"devicedetailcollection"        = "一键收集";
+"devicedetailcollapse"          = "收起";
+"devicedetailswitchdev"         = "切换设备";
+"devicedetailnoswitdev"         = "暂无可切换设备";
+"ok"                            = "正常";
+"warning"                       = "告警";
+"critical"                      = "异常";
+"powerstateon"                  = "已上电";
+"powerstateoff"                 = "已下电";
+"complete"                      = "完成";
+"devicelocation"                = "设备位置";
+"devicelocationpla"             = "请输入设备位置";
+
+"devicelocationdes"             = "由0～64位的数字、字母以及以下特殊字符 `~!@#$%^&*()-_=+\|[{}];:'\",<.>/? 组成";
+
+
+//健康事件界面
+
+"healthevent"                   = "健康事件";
+"eventcode"                     = "事件码";
+"eventdescription"              = "事件描述";
+"eventhandsug"                  = "处理建议";
+"eventhandtime"                 = "产生时间";
+"all"                           = "全部";
+"critical"                      = "紧急事件";
+"major"                         = "严重事件";
+
+
+//系统日志
+
+"system_log_level"                        = "日志级别";
+"system_log_subject"                        = "主体类型";
+"system_log_create_date"                        = "产生时间";
+"system_log_select_level_title"                        = "选择日志级别";
+"system_log_select_level_critical"                        = "紧急";
+"system_log_select_level_warning"                        = "严重";
+"system_log_select_level_ok"                        = "轻微";
+"system_log_select_type_title"                        = "选择主体类型";
+"system_log_select_type_base"                        = "Base Plane";
+"system_log_select_type_bmc"                        = "BMC";
+"system_log_select_type_button"                        = "Button";
+"system_log_select_create_date_title"                        = "选择产生时间";
+"system_log_select_create_date_today"                        = "今天";
+"system_log_select_create_date_seven_days"                        = "近7天";
+"system_log_select_create_date_one_month"                        = "近30天";
+"system_log_select_create_date_range"                        = "特定日期范围";
+"system_log_date_range_from"                        = "起始时间";
+"system_log_date_range_to"                        = "截止时间";
+"system_log_select_all"                        = "全部";
+"system_log_prompt_clear"                        = "确定要清除系统日志?";
+
+
+
+//网络设置界面
+
+"netset"                        = "网络设置";
+"devicedetailnetset"                        = "网络设置";
+"hostname"                      = "主机名";
+"vlan"                          = "VLAN";
+"timezone"                      = "时区";
+
+"ns_hostname_section_name"                      = "设置iBMC主机名";
+"ns_hostname_label_hostname"                      = "主机名";
+"ns_network_msg_illegal_hostname"                      = "主机名输入有误";
+"ns_network_hint_hostname"                      = "由1到64位的数字、英文字母和\'-\'组成，\'-\'不能出现在头尾";
+
+"ns_port_port_mode_fixed"                      = "固定设置";
+"ns_port_port_mode_automatic"                      = "自动选择";
+"ns_port_title_port_mode_selection"                      = "选择网口模式";
+"ns_port_prompt_update_port"                      = "修改网口设置可能会导致链接断开，确认保存？";
+"ns_port_label_port_type"                      = "网口模式";
+"ns_port_section_port_selection"                      = "选择网口";
+"ns_port_port_type_dedicated"                      = "专用网口";
+"ns_port_port_type_aggregation"                      = "汇聚网口";
+"ns_port_port_type_LOM"                      = "板载网口";
+"ns_port_port_type_LOM2"                      = "板载网口2";
+"ns_port_port_type_External_PCIe"                      = "PCIE 扩展网口";
+
+"alerttitle"                      = "提醒";
+
+"ns_network_prompt_update_ip_version"           = "修改IP版本设置可能会导致链接断开，确认保存？";
+"ns_network_prompt_update_ipv4_setting"           = "修改IPv4设置可能会导致链接断开，确认保存？";
+"ns_network_prompt_update_ipv6_setting"           = "修改IPv6设置可能会导致链接断开，确认保存？";
+"ns_network_prompt_update_dns_setting"           = "修改DNS设置可能会导致链接断开，确认保存？";
+"ns_network_ip_version"                      = "IP协议";
+"ns_network_ip_version_setting"                      = "IP协议设置";
+"ns_network_ip_version_selection_title"                      = "选择IP协议";
+"ns_network_ip_version_ipv4"                      = "IPv4";
+"ns_network_ip_version_ipv6"                      = "IPv6";
+"ns_network_ip_version_ipv4_and_ipv6"                      = "IPv4+IPv6";
+"ns_network_dns_addr_origin_selection_title"                      = "选择 DNS 获取方式";
+"ns_network_dns_addr_origin_static"                      = "手动配置";
+"ns_network_dns_addr_origin_ipv4"                      = "使用 IPv4 DNS";
+"ns_network_dns_addr_origin_ipv6"                      = "使用 IPv6 DNS";
+"ns_network_label_ipv4"                      = "IPv4设置";
+"ns_network_label_ipv6"                      = "IPv6设置";
+"ns_network_label_dhcp"                      = "自动获取";
+"ns_network_label_ip_address"                      = "IP地址";
+"ns_network_label_gateway"                      = "默认网关";
+"ns_network_label_subnet_mask"                      = "子网掩码";
+"ns_network_label_prefix_len"                      = "前缀长度";
+"ns_network_label_link_local_address"                      = "链路本地地址";
+"ns_network_label_mac"                      = "MAC地址";
+"ns_network_label_DNS"                      = "DNS";
+"ns_network_label_dns_setup_method"                      = "DNS获取方式";
+"ns_network_label_domain"                      = "域名";
+"ns_network_label_primary_DNS"                      = "首选DNS";
+"ns_network_label_alternative_DNS"                      = "备选DNS";
+
+"ns_network_error_ip_version_required"                      = "请选择IP版本";
+"ns_network_error_ipv4_addr_required"                      = "请输入IPv4地址";
+"ns_network_error_ipv4_addr_illegal"                      = "IPv4地址格式有误";
+"ns_network_error_ipv4_mask_required"                      = "请输入IPv4掩码";
+"ns_network_error_ipv4_mask_illegal"                      = "IPv4掩码格式有误";
+"ns_network_error_ipv4_gateway_required"                      = "请输入IPv4网关";
+"ns_network_error_ipv4_gateway_illegal"                      = "IPv4网关格式有误";
+
+"ns_network_error_ipv6_addr_required"                      = "请输入IPv6地址";
+"ns_network_error_ipv6_addr_illegal"                      = "IPv6地址格式有误";
+"ns_network_error_ipv6_prefix_required"                      = "请输入IPv6前缀长度";
+"ns_network_error_ipv6_prefix_illegal"                      = "IPv6前缀长度须为 0~128 的整数";
+"ns_network_error_ipv6_gateway_required"                      = "请输入IPv6网关";
+"ns_network_error_ipv6_gateway_illegal"                      = "IPv6网关格式有误";
+
+"ns_network_error_primary_dns_required"                      = "请输入首选DNS地址";
+"ns_network_error_primary_dns_illegal"                      = "首选DNS地址格式有误";
+"ns_network_error_alternative_dns_required"                      = "请输入备选DNS地址";
+"ns_network_error_alternative_dns_illegal"                      = "备选DNS地址格式有误";
+
+"ns_network_prompt_update_ip_setting"                      = "确认要修改网络设置吗?";
+
+"ns_vlan_label_setting"                      = "VLAN设置";
+"ns_vlan_label_vlan"                      = "VLAN";
+"ns_vlan_label_vlan_id"                      = "VLAN ID";
+"ns_vlan_hint_vlan_id"                      = "请输入1-4094整数";
+"ns_vlan_illegal_vlan_id"                      = "VLAN ID 必须为1-4094的整数";
+
+"ns_time_zone_label_select_zone"                      = "选择区域";
+"ns_time_zone_label_zone"                      = "区域";
+"ns_time_zone_label_select_timezone"                      = "选择时区";
+"ns_time_zone_label_timezone"                      = "时区";
+"ns_time_zone_msg_timezone_illegal"                      = "请选择时区";
+"ns_time_zone_msg_zone_illegal"                      = "请选择区域";
+
+
+
+
+//硬件信息
+
+"hardwarenic"                   = "网卡";
+"resource_state_enabled"                   = "启用";
+"resource_state_disabled"                   = "禁用";
+"resource_state_absent"                   = "不在位";
+"hardware_memo_label_type"                   = "类型";
+"hardware_memo_label_capacity"                   = "容量";
+"hardware_memo_label_speed"                   = "主频";
+"hardware_memo_label_width_bit"                   = "位宽";
+"hardware_memo_label_rank_count"                   = "Rank(列)";
+"hardware_memo_label_min_voltage"                   = "最小电压";
+"hardware_memo_label_manufacturer"                   = "产商";
+"hardware_memo_label_serial_no"                   = "序列号";
+"hardware_memo_label_part_no"                   = "部件编码";
+"hardware_memo_label_technology"                   = "技术";
+"hardware_cpu_label_manufacturer"                   = "厂商";
+"hardware_cpu_label_model"                   = "型号";
+"hardware_cpu_label_processor_id"                   = "处理器ID";
+"hardware_cpu_label_speed_MHZ"                   = "主频";
+"hardware_cpu_label_processor"                   = "处理器";
+"hardware_cpu_label_cores_and_threads"                   = "核数/线程数";
+"hardware_cpu_label_L123_cache"                   = "一级/二级/三级缓存";
+"hardware_cpu_label_part_no"                   = "部件编码";
+"hardware_cpu_label_position"                   = "位置";
+
+"hardware_power_label_manufacturer"                   = "厂商";
+"hardware_power_label_model"                   = "类型";
+"hardware_power_label_serial_no"                   = "序列号";
+"hardware_power_label_firmware_version"                   = "固件版本";
+"hardware_power_label_capacity_watts"                   = "额定功率";
+"hardware_power_label_supply_type"                   = "输入模式";
+"hardware_power_label_part_no"                   = "部件编码";
+
+"hardware_network_adapter_label_manufacturer"                   = "厂商";
+"hardware_network_adapter_label_model"                   = "型号";
+"hardware_network_adapter_label_chip_manufacturer"                   = "芯片厂商";
+"hardware_network_adapter_label_chip_model"                   = "芯片型号";
+"hardware_network_adapter_label_position"                   = "资源归属";
+"hardware_network_adapter_label_ports"                   = "网口列表";
+
+"hardware_storage_label_model"                   = "类型";
+"hardware_storage_label_name"                   = "名称";
+"hardware_storage_label_firmware_version"                   = "固件版本";
+"hardware_storage_label_support_ext_device"                   = "支持带外管理";
+"hardware_storage_label_support_raid_level"                   = "支持的RAID级别";
+"hardware_storage_label_mode"                   = "模式";
+"hardware_storage_label_configure_version"                   = "配置版本";
+"hardware_storage_label_memory_size_MB"                   = "内存大小";
+"hardware_storage_label_speed"                   = "接口速度";
+"hardware_storage_label_sas_addr"                   = "SAS地址";
+"hardware_storage_label_stripe_range"                   = "支持的带条大小范围";
+"hardware_storage_label_cache_pinned"                   = "Cache Pinned状态";
+"hardware_storage_label_maintain_pd_fail_history"                   = "物理盘故障记忆";
+"hardware_storage_label_copy_back_state"                   = "回拷";
+"hardware_storage_label_smart_copy_back_state"                   = "SMART错误时回拷";
+"hardware_storage_label_JOBD_state"                   = "JBOD模式";
+"hardware_storage_label_bbu"                   = "BBU";
+"hardware_storage_label_bbu_name"                   = "BBU名称";
+"hardware_storage_label_bbu_state"                   = "BBU状态";
+
+"netportlisttitle"             = "网口列表";
+"hardware_network_port_label_port_type"             = "介质类型";
+"hardware_network_port_label_mac_addr"             = "MAC地址";
+"hardware_network_port_port_type_optical"             = "光口";
+"hardware_network_port_port_type_electrical"             = "电口";
+"hardware_network_port_link_status_down"             = "断开";
+"hardware_network_port_link_status_up"             = "连接";
+
+"hardware_storage_label_volumes"                = "逻辑盘列表";
+"hardware_storage_label_disk"                = "物理盘列表";
+"storage_only_support_raid"                = "注意: 当前版本只支持RAID卡存储";
+"drive_label_protocol"                = "接口类型";
+"drive_label_manufacturer"                = "厂商";
+"drive_label_model"                = "型号";
+"drive_label_sn"                = "序列号";
+"drive_label_revision"                = "固件版本";
+"drive_label_media"                = "介质类型";
+"drive_label_temperature"                = "温度";
+"drive_label_fw_status"                = "固件状态";
+"drive_label_sas0"                = "SAS地址(0)";
+"drive_label_sas1"                = "SAS地址(1)";
+"drive_label_capacity"                = "容量";
+"drive_label_capable_speed_gbs"                = "支持的速率";
+"drive_label_negotiated_speed_gbs"                = "协商速率";
+"drive_label_power_state"                = "电源状态";
+"drive_label_hotspare_type"                = "热备状态";
+"drive_label_rebuild_state"                = "重构状态";
+"drive_label_patrol_state"                = "巡检状态";
+"drive_label_indicator_led"                = "定位状态";
+"drive_label_power_on_hours"                = "累计通电时间";
+
+//<!-- 重构状态 -->
+"drive_rebuild_state_done_or_not_rebuilt"                = "已停止";
+"drive_rebuild_state_building"                = "正在重构";
+
+"drive_patroll_state_done_or_not_patrolled"                = "已停止";
+"drive_patroll_state_patrolling"                = "正在巡检";
+
+//<!-- 热备状态 -->
+"drive_hotspare_none"                = "无";
+"drive_hotspare_global"                = "全局";
+"drive_hotspare_dedicated"                = "局部";
+
+//<!-- 定位状态 -->
+"drive_indicator_led_off"                = "关闭";
+"drive_indicator_led_blinking"                = "开启";
+
+"logical_label_volume_name"                = "名称";
+"logical_label_state"                = "状态";
+"logical_label_raid_level"                = "RAID级别";
+"logical_label_capacity"                = "容量";
+"logical_label_strip_size"                = "条带大小";
+"logical_label_sscd_caching"                = "SSCD功能";
+"logical_label_default_read_policy"                = "默认读策略";
+"logical_label_current_read_policy"                = "当前读策略";
+"logical_label_default_write_policy"                = "默认写策略";
+"logical_label_current_write_policy"                = "当前写策略";
+"logical_label_default_io_policy"                = "默认IO策略";
+"logical_label_current_io_policy"                = "当前IO策略";
+"logical_label_disk_cache_policy"                = "物理盘缓存状态";
+"logical_label_access_policy"                = "访问策略";
+"logical_label_init_state"                = "初始化类型";
+"logical_label_bgi_enabled"                = "后台初始化";
+"logical_label_l2_cache"                = "用于二级缓存";
+"logical_label_consistency_check"                = "一致性校验";
+"logical_label_boot_disk"                = "启动盘";
+
+"yes"                = "是";
+"no"                = "否";
+"Enable"                = "已启用";
+"Disable"                = "已禁用";
+"Stopped"                = "已停用";
+
+//<!--  InitializationMode  -->
+"logical_drive_im_UnInit"                = "No Init";
+"logical_drive_im_QuickInit"                = "Quick Init";
+"logical_drive_im_FullInit"                = "Full Init";
+
+//<!-- logic drive state -->
+"logical_drive_state_enabled"                = "Optimal";
+"logical_drive_state_offline"                = "Offline";
+"logical_drive_state_degraded"                = "Degraded";
+
+//实时状态
+
+"realtimetemp"                  = "实时温度";
+"healthstatus"                  = "健康状态";
+"healthfan"                     = "风扇";
+"healthsupply"                  = "电源";
+"healthhard"                    = "硬盘";
+"healthcpu"                     = "CPU";
+"healthmemory"                  = "内存";
+"healthtemp"                    = "温度";
+
+
+
+//功耗信息
+
+"powerinfo"                     = "功耗信息";
+"statisticscollected"           = "统计开始时间";
+"cureentpower"                  = "当前功率";
+"sysaveragepower"               = "系统平均功率";
+"totalconsumedpower"            = "系统累计功耗电量";
+"peakpower"                     = "系统峰值功率";
+"peakoccurred"                  = "峰值产生时间";
+"curcpupower"                   = "CPU当前功耗";
+"curmemorypower"                = "内存当前功耗";
+"notsupported"                  = "暂不支持";
+
+//启动设置
+
+"bootmediium"                   = "启动介质";
+"bootmode"                      = "启动模式";
+"bootnooverride"                = "未设置";
+"bootpex"                       = "PXE";
+"bootfddredevice"               = "软驱/可插拔移动设备";
+"bootdvd"                       = "光驱";
+"bootharddrive"                 = "磁盘";
+"bootnbioset"                   = "BIOS设置";
+"bootneffper"                   = "永久生效";
+
+
+
+//电源开关
+
+"powerofftimeout"               = "下电时限";
+"submit"                        = "提交";
+"poweron"                       = "上电";
+"gracefulpoweroff"              = "正常下电";
+"forcepoweroff"                 = "强制下电";
+"forcedrestart"                 = "强制重启";
+"fircepowercycle"               = "强制下电再上电";
+"nmi"                           = "NMI";
+"setsafepowerofftimeout"        = "设置下电时限";
+"powerofftimeoutdes"            = "取值范围：10 - 6000，默认值为600，单位秒";
+"powerofftimeoutpla"            = "取值范围：10 - 6000";
+"timeout"                       = "超时时长";
+
+
+//定位灯
+
+"indicator_state_off"           = "已关闭";
+"indicator_state_lit"           = "已点亮";
+"indicator_state_blinking"      = "闪烁";
+"indicator_state_unknown"       = "未知";
+
+
+//固件信息
+
+"ibmcswitchover"                = "IBMC主备份区境像倒换";
+"RESTARTIBMC"                   = "重启IBMC";
+"firmware_prompt_reset"                   = "确认要重启iBMC吗?";
+"firmware_prompt_rollback"                   = "确认要倒换主备分区镜像吗?";
+
+
+//生成报告
+
+"Selectreportitem"              = "选择报告项";
+"toreport"                      = "生成报告";
+"report"                        = "报告";
+"reportsysinfo"                 = "系统信息";
+"reportcpu"                     = "CPU";
+"reportmemory"                  = "内存";
+"reportstorage"                 = "存储";
+"reportfirmware"                = "固件";
+"reportnetwork"                 = "网络";
+"reporthealthsta"               = "实时状态";
+"reportbtn"                     = "生成报告";
+"sharefiletype"                 = "选择分享文件类型";
+"sharetypeimage"                = "图片";
+"share"                 = "分享";
+
+
+
+//一键收集
+
+"collectionkeybtn"              = "一键收集";
+"Storagedirectory"              = "存储目录";
+"path"                          = "目录";
+"sandbox"                       = "沙盒";
+"sandboxfile"                   = "沙盒文件";
+"packaging"                     = "打包中...";
+"downloading"                   = "下载中...";
+"downloadcomplete"              = "下载完成";
+
+//我的
+
+"passwordprotection"            = "密码保护";
+"fingerprintunlock"             = "指纹解锁";
+"pleasesetpwdlockfirst"         = "请先设置密码锁";
+"devicenosupportfingerprint"    = "您的设备硬件暂时不支持指纹识别";
+"setapplock"                    = "开启应用锁";
+"createapplock"                 = "请创建应用密码";
+"combinationlock"               = "密码锁";
+"modifypwdlock"                 = "修改密码锁";
+"pleaseenteroldpwd"             = "请输入旧密码，以验证身份";
+"pleaseenternewpwd"             = "请输入新密码";
+"openapplock"                   = "开启应用锁";
+"closeapplock"                  = "关闭应用锁";
+"pleaseenterpwdagain"           = "请再次输入应用密码";
+"inputpwderrorreenter"          = " 输入密码错误，请重新输入";
+"fingerprintnoset"          = "设备系统未设置指纹密码";
+"fingerprintinputpwd"          = "输入密码";
+"fingerprintalert"          = "请验证已有指纹";
+"unlock_title"          = "验证身份";
+
+//关于
+"funcoverview"                  = "功能介绍";
+"versionupdate"                 = "检查新版本";
+"rate"                          = "去评分";
+"userprotocal"                  = "用户协议";
+
+//多语言
+"duoyuyan"                      = "多语言";
+"ThemeSkin"                     = "主题皮肤";
+"selectlanguage"                = "选择语言";
+"selectcolor"                   = "选择颜色";
+
+//帮助反馈
+"useappPasswordProtection"                      = "如何使用APP的密码保护";
+"howtoadddevice"                                = "如何添加设备";
+"Scan1DCode"                                    = "如何使用一维码扫描设备";
+"HowtoManageServers"                           = "如何使用设备的各项管理功能";
+"notesevent"                                    = "一些注意事项";
+"helphow1"                      = "helphow1";
+"helphow2"                      = "helphow2";
+"helphow3"                      = "helphow3";
+"helphow4"                     = "http://support.huawei.com/enterprise/zh/doc/EDOC1100022943";
+"helphow5"                      = "helphow5";
+"feedback"                      = "意见反馈";
+"feedbackname"                      = "您的称呼";
+"feedbackemail"                      = "您的邮箱";
+"UploadLog(Optional)"                      = "上传日志（可选）";
+"UploadLogdes"                      = "为更好解决您的问题，建议您选择发送应用日志";
+"UploadPicture(Optional)"                      = "上传截图（可选）";
+"feedback_hint_privacy"                      = "隐私声明：1、您输入的个人邮箱信息，仅用来对反馈意见的回复，不会用来做其他事情。2、应用日志中不包含任何有关您个人隐私的信息。";
+
+"feedbackmark"                      = "请描述您遇到的问题或建议以便我们提供更好的帮助，谢谢";
+"pleaseinputyourname"                      = "请输入您的称呼";
+"fbinputyournamelength"                      = "称呼不能超过48个字符";
+"pleaseinputyouremail"                      = "请输入您的邮箱";
+"youremailerror"                      = "邮箱格式错误";
+"fbemaillength"                      = "邮箱不能超过48个字符";
+
+
+//用户协议
+"useragreement"                   = "policy1";
+"versiondes"                      = "app_version1";
+
+
+"pwdclear"                        = "清除";
+"pwdremove"                        = "删除";
+"localno"                         = "否";
+"localyes"                         = "是";
+
+"thisnosuportfunc"                         = "该设备不支持该功能";
+
+"currentwarming"                         = "当前告警";
+
+"didongmoshialert1"                     = "该功能不支持V3服务器，请确保服务器为非V3服务器";
+"didongmoshialert2"                     = "NMI可能引起系统崩溃。请谨慎使用。";
+"didongmoshialert3"                     = "NMI仅用于内部调测，使用时需要操作系统中有对应的NMI中断处理程序，否则可能引起系统崩溃";
+"didongmoshialert4"                     = "当前设备不支持修改启动模式";
+
+"akeycollectalert1"                     = "一键收集需要耗费数分钟时间，请耐心等待";
+
+"scanqralert2"              = "将一维码放到框内即可";
+
+"emailsendsuccess"              = "发送成功";
+"pwdhaveclose"                  = "密码已关闭";
